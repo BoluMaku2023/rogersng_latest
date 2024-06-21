@@ -1,0 +1,242 @@
+.hero2-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero2-wrapper-new {
+  color: white;
+
+  background-color: #f0f0f0;
+  margin-top: 2rem;
+  width: 100vw;
+  align-items: flex-start;
+  display: inline-flex;
+}
+.hero3-wrapper {
+  color: white;
+  position: relative;
+  background-color: #f0f0f0;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  width: 100vw;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+.first-title > h2 {
+  color: #000;
+  font-family: Maitree;
+  font-size: 48px;
+
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px; /* 125% */
+}
+.content {
+  display: flex;
+  width: 100%;
+  padding-left: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  margin-left: 0px;
+  padding-left: 5%;
+}
+.services-des {
+  display: flex;
+  padding-top: 50px;
+  gap: 1rem;
+  width: 100%;
+  padding-right: 2rem;
+
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.serve {
+  overflow-y: hidden;
+  transition: 0.3s;
+  width: calc(100% / 3);
+}
+.services-container {
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: break-word;
+  align-items: flex-start;
+}
+.serve:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.service-title > h3 {
+  color: #000;
+  font-family: Maitree;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  overflow-y: hidden;
+  line-height: 27px; /* 103.846% */
+  letter-spacing: -0.22px;
+}
+.services-container > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  width: 100%;
+
+  overflow-wrap: break-word;
+  margin-bottom: 2rem;
+  line-height: 22px; /* 183.333% */
+  letter-spacing: 0.5px;
+}
+.second-title > h2 {
+  color: #000;
+  font-family: Maitree;
+  font-size: 40px;
+  margin-top: 4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px; /* 125% */
+}
+.s-case-section {
+  color: white;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+}
+
+.case-container {
+  display: flex;
+  position: relative;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+}
+.adesokan-div {
+  display: flex;
+  padding: 100px 50px;
+  width: 100vw;
+  gap: 5%;
+  overflow: hidden;
+  align-items: flex-start;
+  background-color: white;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.adesokan > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  max-lines: 1;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.5px;
+}
+.left > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  max-lines: 1;
+  font-weight: 300;
+  line-height: 22px; /* 183.333% */
+  letter-spacing: 0.5px;
+}
+.adesokan-div > span {
+  color: #000;
+  font-family: Maitree;
+  font-size: 26px;
+  font-style: normal;
+  padding-right: 10%;
+  font-weight: 300;
+  overflow: hidden;
+  line-height: 38px; /* 146.154% */
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .serve {
+    width: 100%;
+  }
+  .hero3-wrapper {
+    color: white;
+    position: relative;
+    background-color: #f0f0f0;
+    padding-top: 5%;
+    padding-left: 2%;
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+  .person-contain-s {
+    width: 50%;
+  }
+  .person-contain-s > img {
+    width: 100%;
+  }
+
+  .first-title > h2 {
+    color: #000;
+    font-family: Maitree;
+    font-size: var(--fs-34);
+
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px; /* 125% */
+  }
+  .services-des {
+    display: flex;
+    padding-top: 20px;
+    gap: 2rem;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .content {
+    display: flex;
+    width: 100vw;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    overflow: hidden;
+    margin-left: 5px;
+    padding-right: 10%;
+  }
+  .adesokan-div {
+    display: flex;
+    padding-left: 10%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100vw;
+    row-gap: 5px;
+    background-color: white;
+  }
+  .adesokan-div > span {
+    color: #000;
+    font-family: Maitree;
+    font-size: var(--fs-17);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px; /* 146.154% */
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 30px 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
